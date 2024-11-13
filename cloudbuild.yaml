@@ -13,3 +13,5 @@ steps:
   args: ['run', 'deploy', 'flaskhelloworldapp', '--image', 'gcr.io/profound-alcove-441603-e8/flaskhelloworldapp', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated', '--port', '80']
 images:
 - gcr.io/profound-alcove-441603-e8/flaskhelloworldapp
+options:
+  logging: CLOUD_LOGGING_ONLY
